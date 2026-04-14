@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+h1, h2 {
+    color:#628141;
+}
+
+.box > p {
+    color: #EBD5AB;
+}
+
+* {
+    background: black;
+    color: aliceblue;
+}
+
+.box li {
+    color: #EBD5AB;
+}
+
+li.done {
+    color: gold; 
+}
+
+ul p.done {
+    font-size: large;
+}

@@ -1,0 +1,31 @@
+Group selector
+
+example.1 : Group = Apply to both selectors
+selector , selector {
+    color: bluevoilet
+}
+
+example.2 : Group = Apply to direct child of left side
+selector > selector {
+    color: bluevoilet
+}
+
+example.3 : Group = adjacent sibling selector
+selector + selector {
+    color: bluevoilet
+}
+
+example.4 : Group = general sibling selector
+selector ~ selector {
+    color: bluevoilet
+}   
+
+example.5 : descendant selector
+selector selector {
+    color: bluevoilet
+}
+
+example.6 : Chaining selectors
+selector selector selector {
+    color: bluevoilet
+}

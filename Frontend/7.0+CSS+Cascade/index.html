@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Cascade</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="outer-box" class="box">
+      <div class="box">
+        <p>Yellow Text</p>
+        <div class="box inner-box">
+          <p class="white-text">White Text</p>
+        </div>
+      </div>
+      <div class="box">
+        <p>Yellow Text</p>
+        <div class="box inner-box">
+          <p class="white-text">White Text</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Position-->
+<!-- li {
+ color: red; 
+ color: blue;
+ ans : blue
+ } -->
+
+<!-- Specificity -->
+<!-- #id { color: orange; }        /* Highest */
+.class { color: red; }
+div[draggable] { color: purple; }
+p { color: blue; }            /* Lowest */ -->
+
+<!-- Type
+  <link rel = stylesheet href="./style.css"> 
+  <style><style/>
+  <h1 style=" ">Hello<h1>
+
+Inline > Internal > External
+  -->
+
+<!-- Importance -->
+<!-- color: red -->
+<!-- color: green !important ---1 important-->
+
